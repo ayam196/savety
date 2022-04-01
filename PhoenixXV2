@@ -1,0 +1,1042 @@
+-- Gui To Lua
+
+------------------------------------------Text For You-------------------------------------------
+
+-- Nothing
+
+-------------------------------------------Ignore This-------------------------------------------
+
+print("Load")
+print("Loading 99%")
+print("Wait The %")
+print("Welcome @Unknown")
+print("Thanks for using Phoenix X")
+print("25%")
+print("Original creator of Phoenix X Hub : Lordbedwars1991#9069")
+print("40%") 
+print("Shut Up")
+print("50%")
+print("Im Watching U Like A GOD")
+print("70%")
+print("Im A Gods")
+print("90%")
+print("Youtube Channel : Reina RBX")
+print("100%")
+print("DONT REMAKE MY HUB")
+print("Start")
+print("Starting")
+print("Pls Wait 1 Second")
+print("Complet")
+print("Subcribe To My Channel")
+
+-------------------------------------------DONT DELETE OR REMAKE THIS-------------------------------------------
+
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "Join our Discord Server!",
+    Text = "Change Discord Invite.",
+    Duration = 3, -- Set the duration to how much you want this to stay
+})
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+-- YOU CAN DELETE THIS SECTION
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "Creator",
+    Text = "Lordbedwars1991#9069",
+    Duration = 3,
+})
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "Subcribe My Channel",
+    Text = "https://youtube.com/channel/UC4OnZiJ8L1R86nrLSe3Hqfg",
+    Duration = 3,
+})
+local CoreGui = game:GetService("StarterGui") -- Variable of StarterGui
+
+CoreGui:SetCore("SendNotification", {
+    -- Customizable
+    Title = "Info",
+    Text = "SUBCRIBE AND LIKE TO MY CHANNEL REINA RBX",
+    Duration = 3, -- Set the duration to how much you want this to stay
+})
+
+-------------------------------------------MATERIAL-------------------------------------------
+
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+-------------------------------------------CHANGE UI-------------------------------------------
+
+local UI = Material.Load({
+     Title = "Phoenix X V2 | Beta", -- Name Hub
+     Style = 3,
+     SizeX = 400, -- Change Size Here
+     SizeY = 410, -- And Here
+     Theme = "Dark" -- Have 5 Style Is Aqua, Dark , Light, Jester , Mocha
+})
+
+-------------------------------------------LOCALPAGE-------------------------------------------
+
+local Page = UI.New({
+    Title = "Main"
+})
+
+local Page2 = UI.New({
+    Title = "Hub"
+})
+
+local Page3 = UI.New({
+    Title = "Player"
+})
+
+local Page4 = UI.New({
+    Title = "Button"
+})
+
+local Page5 = UI.New({
+    Title = "Building Chest"
+})
+
+local Page6 = UI.New({
+    Title = "Option"
+})
+
+local Page7 = UI.New({
+    Title = "Choose A Color"
+})
+
+local Page8 = UI.New({
+    Title = "Auto"
+})
+
+local Page9 = UI.New({
+    Title = "How To Contact Me"
+})
+
+local Page10 = UI.New({
+    Title = "Script"
+})
+
+local Page11 = UI.New({
+    Title = "Teleport"
+})
+
+-------------------------------------------Page1-------------------------------------------
+
+Page.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page.Button({
+    Text = "Inf Jump",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/M0rBMW3K",true))()
+    end
+})
+
+Page.Button({
+    Text = "Aimbot Bow[Patch]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/gmsYcKr1",true))()
+    end
+})
+
+Page.Button({
+    Text = "Booga GGH Gui",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/u4ZaTQmy",true))()
+    end
+})
+
+Page.Button({
+    Text = "Stattervast Admin",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/MjmdAaq2",true))()
+    end
+})
+
+Page.Button({
+    Text = "Kohls Admin Hub",
+    Callback = function()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/DAILYSCRIPTOFFICIAL/DAILYSCRIPTOFFICIAL/main/README.md'),true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This Is Kohls Admin Hub."            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page.Button({
+    Text = "Kohls Admin Pro V1",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/E3G3xWUk",true))()
+    end
+})
+
+Page.Button({
+    Text = "Reviz Admin",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/C7GF6XRn",true))()
+    end
+})
+
+Page.Button({
+    Text = "Inf Yield",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/0S6BVR6T",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This Is Infinite Yield."            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page.Button({
+    Text = "100T Millionaire Tycoon",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/EqQxiypt",true))()
+    end
+})
+
+Page.Button({
+    Text = "Grab Knife V3",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/d8v0xLTz",true))()
+    end
+})
+
+Page.Button({
+    Text = "Fps boost",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/3wymQMnX",true))()
+    end
+})
+
+Page.Button({
+    Text = "Rtx Booga",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/QNHMqdFB",true))()
+    end
+})
+
+-------------------------------------------Page2-------------------------------------------
+
+Page2.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page2.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page2.Button({
+    Text = "Remote Spy",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/harisprofanny/d/main/Protected.lua%20(22).txt"))()
+    end
+})
+
+Page2.Button({
+    Text = "BoogaBit Revamp",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/yigKxDrK", true))()
+    end
+})
+
+Page2.Button({
+    Text = "Booga Minings",
+    Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/CyFNP4wf", true))()
+    end
+})
+
+Page2.Button({
+    Text = "Booga Pwheand Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://pastebin.com/raw/yPVkMUDn",true))()
+    end
+})
+
+
+Page2.Button({
+    Text = "Server Side For BackDoor Game",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/rFaiXJxE", true))()
+    end
+})
+
+Page2.Button({
+    Text = "Booga Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/Sxi0wKut",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This Is Booga Hub Op Script"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page2.Button({
+    Text = "Other Gui",
+    Callback = function()
+       loadstring(game:HttpGet(("https://raw.githubusercontent.com/ayam196/booga-hub/main/Bunhacks"), true))() --- Other Gui.
+    end
+})
+
+Page2.Button({
+    Text = "BoogaKuy Hub",
+    Callback = function()
+       loadstring(game:HttpGet(("https://raw.githubusercontent.com/ayam196/booga-hub/main/Boogakuyhub"), true))() --- BoogakuyHub.
+    end
+})
+
+Page2.Button({
+    Text = "Fluseen gui",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/KX31yZPW",true))()
+    end
+})
+
+Page2.Button({
+    Text = "Era Hub",
+    Callback = function()
+      loadstring(game:HttpGet('https://pastebin.com/raw/zRWQnNjS'))()
+    end
+})
+
+Page2.Button({
+    Text = "Fe Chat Hack Gui[Patch]",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+    end
+})
+
+Page2.Button({
+    Text = "Breakin Story Hub",
+    Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+    end
+})
+
+-------------------------------------------Page3-------------------------------------------
+
+Page3.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page3.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page3.Slider({
+    Text = "Walkspeed",
+    Callback = function(value)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (value)
+    end,
+    Min = 0,
+    Max = 500,
+    Def = 16
+})
+
+Page3.Slider({
+    Text = "Jump Boost",
+    Callback = function(value)
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = (value)
+    end,
+    Min = 0,
+    Max = 500,
+    Def = 16
+})
+
+-------------------------------------------Page4-------------------------------------------
+
+Page4.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page4.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page4.Button({
+    Text = "2 Player Anime Tycoon[Patch]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/b28Qrb6U"))
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "this Only Work In 3 Games And Its: 2 Player Super Villain Tycoon,2 Player Anime Tycoon, 2 Players Among Us Tycoon"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page4.Button({
+    Text = "Prison Life Admin",
+    Callback = function()
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "This Is Prison Life Admin."            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page4.Button({
+    Text = "Big Body[Patch]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/AcfJhymd",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "U Cant Miss Now."            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page4.Button({
+    Text = "Da Hood",
+    Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Topcoldgaming/local-lililililililililililillil-213-2-43-25-24-32-43-523-53-local-fg-repeat-local-ur-loop/main/sussy%20stuff"))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "U Really Need Keyboard for Use this script"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+-------------------------------------------Page5-------------------------------------------
+
+Page5.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page5.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page5.Button({
+    Text = "                      Fuck | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/AtayKDontPlay/FuckScript/main/ChestType"), true))() --- Fuck Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      Shit | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ForestWasTaken/shitword/main/AtayK", true))() --- Shit Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      Hello | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/ForestWasTaken/HelloScriptv2/main/AtayK"), true))() --- Hello Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      Shut | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/ForestWasTaken/Shut_uafeiwaefhuiawefhiawoefhaeuiofhweouiahwefoiuefhuiwefhoauiwefhuawioefhaoiweufhwiofuwehouiawefhoi/main/weurweoiryewruiyweiruyerwiuwerywueiuyweriuyweriuweryiuweryiurfgciweucguiweuychweaiufyaweufywecfbyue32872tg387fgcuyewia2378tg8idc8iatgv871f32fwvcd86iv2836dvwEFVTAWEUIFVTUGIADSYGCYUFI867YTYESIew", true))() --- idk why this loadstring is long LOL
+    end
+})
+
+Page5.Button({
+    Text = "                      Love | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/ForestWasTaken/Love/main/ChestScript"), true))() --- Love Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      Love u | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/ForestWasTaken/Loveu/main/ChestScript"), true))() --- Love u Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      HI : ) | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/ForestWasTaken/HI-/main/ChestScript"), true))() --- HI : ) Typer.
+    end
+})
+
+Page5.Button({
+    Text = "                      Ez | Chest  ",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/AtayKDontPlay/TypingEz/main/ChestsType"), true))()
+    end
+})
+
+-------------------------------------------Page6-------------------------------------------
+
+Page6.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page6.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page6.Button({
+    Text = "A Simple Spam Chat[Rejoin For Stop]",
+    Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/QfnmQgy0",true))()
+   end
+})
+
+-------------------------------------------Page7-------------------------------------------
+
+Page7.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page7.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page7.ColorPicker({
+    Text = "Choose A Color",
+    Default = Color3.fromRGB(0, 255, 0),
+    Callback = function(value)
+        print(value)
+    end
+})
+
+-------------------------------------------Page8-------------------------------------------
+
+Page8.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page8.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page8.Button({
+    Text = "Auto Coints[Lag]",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/a2Fx7waf",true))()
+    end,
+    Enabled = false
+})
+
+Page8.Button({
+    Text = "Auto Heal Bloodfruit",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/8P4niVpk",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Press Q For Turn Off, Or Turn On"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Heal Berry",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/3PnDFeu7",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Press Q For Turn Off, Or Turn On"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Heal BlueFruit",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/nrtQfMug",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Press Q For Turn Off, Or Turn On"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Heal CookedMeat",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/NA2Cnf28",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "Press B For Turn Off, Or Turn On"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Egg Gui",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/zvT764DX",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "For Get Alot Of Cooked Egg"            
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Farm[Bloodfruit]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/NeFKbcFX",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "press= P, In Your Keyboard Will Place 40 Plant Box, Press N = Plant Bloodfruit U Need alot bloodfruit to, Press M = Harvest But Is will laggy you"
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Farm[Bluefruit]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/L8dg1Pj2",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "press= P, In Your Keyboard Will Place 40 Plant Box, Press N = Plant Bluefruit U Need alot Bluefruit to, Press M = Harvest But Is will laggy you"
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Farm[Berry]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/fm0fEeDE",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "press= P, In Your Keyboard Will Place 40 Plant Box, Press N = Plant Berry U Need alot Berry to, Press M = Harvest But Is will laggy you"
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Farm[Apple]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/FKcaHNT6",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "press= P, In Your Keyboard Will Place 40 Plant Box, Press N = Plant Apple U Need alot Apple to, Press M = Harvest But Is will laggy you"
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+Page8.Button({
+    Text = "Auto Farm[CloudBerry]",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/CQ4QzvkD",true))()
+    end,
+    Menu = {
+        Information = function(self)
+            UI.Banner({
+                Text = "press= P, In Your Keyboard Will Place 40 Plant Box, Press N = Plant CloudBerry U Need alot CloudBerry to, Press M = Harvest But Is will laggy you"
+            })
+        end,
+        Test = function(self) 
+            table.foreach(self, print)
+        end
+    }
+})
+
+-------------------------------------------Page9-------------------------------------------
+
+Page9.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991q#9069')
+    end
+})
+
+Page9.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page9.Button({
+    Text = "My discord ( click to copy) ",
+    Callback = function()
+            setclipboard('Lordbedwars1992#5716')
+    end
+})
+
+Page9.Button({
+    Text = "My discord server ( click to copy ) ",
+    Callback = function()
+            setclipboard('https://discord.gg/xpWs33TQ')
+    end
+})
+
+Page9.Button({
+    Text = "My roblox ( Click Here For Copy ) ",
+    Callback = function()
+            setclipboard('https://www.roblox.com/users/3073430940/profile')
+   end
+})
+
+Page9.Button({
+    Text = "My Youtube Channel ( Click Here For Copy  ) ",
+    Callback = function()
+            setclipboard('https://youtube.com/channel/UC4OnZiJ8L1R86nrLSe3Hqfg')
+   end
+})
+
+Page9.Button({
+    Text = "My Executor ( Click Here For Copy ) ",
+    Callback = function()
+            setclipboard('Arceus X Or Kittenmilk')
+   end
+})
+
+-------------------------------------------Page10-------------------------------------------
+
+Page10.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1992#5716')
+    end
+})
+
+Page10.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page10.Button({
+    Text = "set Jump Power To 26[No Work In Booga]",
+    Callback = function()
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 26
+    end
+})
+
+Page10.Button({
+    Text = "Set Walkspeed To 26[No Work In Booga]",
+    Callback = function()
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 26
+    end
+})
+
+Page10.Button({
+    Text = "Bunny Jump",
+    Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/4PmMjmSB",true))()
+    end
+})
+
+Page10.Button({
+    Text = "Rainbow Circle Path[No Work In Booga]",
+    Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/qjfNAPL3",true))()
+    end
+})
+
+Page10.Button({
+    Text = "Void TP",
+    Callback = function()
+            game:GetService("TeleportService"):Teleport(2021740958)
+    end
+})
+
+Page10.Button({
+    Text = "Mojo Craft",
+    Callback = function()
+            loadstring(game:HttpGet("https://pastebin.com/raw/NPc9MFnL", true))()
+    end
+})
+
+Page10.Button({
+    Text = "Craft Gui",
+    Callback = function()
+            loadstring(game:HttpGet("https//https://pastebin.com/raw/spgZDKr2", true))()
+    end
+})
+
+Page10.Button({
+    Text = "Craft God Set[No Work]",
+    Callback = function()
+            loadstring(game:HttpGet(("https://raw.githubusercontent.com/ayam196/booga/main/God%20set"), true))()
+    end
+})
+
+-------------------------------------------Page11-------------------------------------------
+
+Page11.TextField({
+    Text = "Credit: Lordbedwars1991",
+    Callback = function()
+        setclipboard('Lordbedwars1991#9069')
+    end
+})
+
+Page11.Button({
+    Text = "Safe Zone",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1686.31213, -3.64999866, -2534.19434, -0.993439555, 0, -0.114361301, 0, 1, 0, 0.114361301, 0, -0.993439555)
+    end
+})
+
+Page11.Button({
+    Text = "Close Hub",
+    Callback = function()
+       loadstring(game:HttpGet("https://pastebin.com/raw/9PNYHrfs",true))()
+    end
+})
+
+Page11.Button({
+    Text = "Teleport To Mid",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(5.88710499, -3.64998388, -11.7930155, -0.993439555, 0, -0.114361301, 0, 1, 0, 0.114361301, 0, -0.993439555)
+    end
+})
+
+Page11.Button({
+    Text = "Sky 1nd",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-483.023, 149, -597.255)
+    end
+})
+
+Page11.Button({
+    Text = "Sky 2nd",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-513.839, 311.147, -1122.7) -- Sun Sky
+    end
+})
+
+Page11.Button({
+    Text = "Sky 3nd",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1095.2, 309, -1209.88) -- Sky 3nd
+    end
+})
+
+Page11.Button({
+    Text = "Old God",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1077.22, -204.778, -774.99) -- Old God
+    end
+})
+
+Page11.Button({
+    Text = "Hatefull God",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1154.63, -151.543, 1186.24) -- Hatefull God
+    end
+})
+
+Page11.Button({
+    Text = "Miscrable God",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-186.589, 158.961, -682.484) -- Misarcle God
+    end
+})
+
+Page11.Button({
+    Text = "Shelly",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Shelly Big",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Mamoth Ice",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Mamoth Desert",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Giant Ice",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Waterfall",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Cave 1nd",
+    Callback = function()
+            game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Empty) 
+    end
+})
+
+Page11.Button({
+    Text = "Coming Soon",
+    Callback = function()
+            print("Coming Soon")
+    end
+})
+
+-------------------------------------------Coming Soon-------------------------------------------
