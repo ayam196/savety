@@ -1,2 +1,0 @@
-# savety
-Savety lua
