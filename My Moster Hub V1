@@ -1,0 +1,124 @@
+-------------------------- Loading --------------------------
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Loading 1% HUB";
+	Text = "...";
+	Icon = "rbxthumb://type=Asset&id=1683451805&w=150&h=150"})
+Duration = 16;
+
+wait(7)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Loading 5% HUB";
+	Text = "...";
+	Icon = "rbxthumb://type=Asset&id=1683451805&w=150&h=150"})
+Duration = 16;
+
+wait(6)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Loading 10% HUB";
+	Text = "...";
+	Icon = "rbxthumb://type=Asset&id=1683451805&w=150&h=150"})
+Duration = 16;
+
+wait(5)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Loading 50% HUB";
+	Text = "...";
+	Icon = "rbxthumb://type=Asset&id=1683451805&w=150&h=150"})
+Duration = 16;
+
+wait(4)
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Loading 100% HUB";
+	Text = "...";
+	Icon = "rbxthumb://type=Asset&id=1683451805&w=150&h=150"})
+Duration = 16;
+
+wait(2)
+
+-------------------------- Prints --------------------------
+
+print("Subcribe To Reina RBX")
+print("Script Created By Reina RBX")
+print("Helper: Creator Of The Moster Script")
+print("Showcase By: Lordbedwars1991")
+print("Version Is: Beta")
+print("Found Bug?, Report To Reina RBX")
+print("Savety Lua Create By SuperGuardX")
+
+-------------------------- SendNotification --------------------------
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Moster UI Loaded.";
+	Text = "Thanks For Using ";
+	Icon = "rbxthumb://type=Asset&id=15533743&w=150&h=150"})
+Duration = 16;
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+	Title = "Bugs";
+	Text = "(If The Gui Is Not Working Spam The Button)";
+	Icon = "rbxthumb://type=Asset&id=5839962783&w=150&h=150"})
+Duration = 16;
+
+game:GetService("StarterGui"):SetCore("SendNotification", { 
+    Title = "Executor";
+    Text = "Kittenmilk - Level 7";
+    Icon = "rbxthumb://type=Asset&id=8260592968&w=150&h=150"})
+Duration = 16;
+
+-------------------------- Material --------------------------
+
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/AikaV3rm/UiLib/master/Lib.lua')))()
+
+-------------------------- Local Windows --------------------------
+
+local w = library:CreateWindow("Moster Hub Beta") -- Creates the window
+
+-------------------------- Local Pages --------------------------
+
+local a = w:CreateFolder("Moster 1") -- Creates the folder(U will put here your buttons,etc)
+local c = w:CreateFolder("Moster 2")
+
+-------------------------- Page A --------------------------
+
+a:Button("Wyz Form",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ayam196/savety/main/C1"))();
+end)
+
+a:Button("Giant Moster",function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ayam196/savety/main/Moster%231"))();
+end)
+
+a:Button("Coming Soon",function()
+	loadstring(game:HttpGet("Github"))();
+end)
+
+a:Button("Coming Soon",function()
+	loadstring(game:HttpGet("Github"))();
+end)
+
+a:Button("Versus",function()
+	loadstring(game:HttpGet('https://pastebin.com/raw/wC64LrAJ',true))()
+end)
+
+-------------------------- Page C --------------------------
+
+c:Button("Coming Soon",function()
+	loadstring(game:HttpGet("Github"))();
+end)
+
+c:Button("Coming Soon",function()
+	loadstring(game:HttpGet("Github"))();
+end)
+
+c:Button("Fe Nightmare Sans",function()
+	print("test")
+end)
+
+c:DestroyGui()
+
+--------------------------  Coming Soon --------------------------
