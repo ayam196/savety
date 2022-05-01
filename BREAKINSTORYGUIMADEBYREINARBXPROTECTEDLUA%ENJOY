@@ -1,0 +1,403 @@
+--[[
+
+    BREAKIN STORY GUI
+
+	MADE BY LORDBEDWARS1992#5716	CHANNEL: REINA RBX
+
+--]]
+
+ 
+
+-- Library Loadstring:
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/stev15291/ProjectCatV2-Utilities/main/UILibrary.lua"))()
+
+-- Window Creating
+
+local Main = Library:Create("Venom BETA")
+
+-- Tab Creating
+
+local Tab1 = Main:Tab("Main")
+
+-- Label:
+
+Tab1:Label("Main")
+
+Tab1:Button("BestFriend Cat", function()
+
+	local Target = game:GetService("ReplicatedStorage").RemoteEvents.Cattery;
+
+    Target:FireServer();
+
+end)
+
+Tab1:Button("Heal", function()
+
+	for i = 1, 200 do
+
+        wait(0.0001)
+
+        local A_1 = "Cat"
+
+        local Event = game:GetService("ReplicatedStorage").RemoteEvents.Energy
+
+        Event:FireServer(A_1)
+
+    end
+
+end)
+
+Tab1:Button("Remove Tools", function()
+
+for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+
+        if v:IsA("Tool") then
+
+            v:Destroy()
+
+        end
+
+    end
+
+end)
+
+Tab1:Button("Drop Tools", function()
+
+    while wait(1) do
+
+        for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
+
+            if v:IsA("Tool") then
+
+                v.CanBeDropped = true
+
+            end
+
+        end
+
+    end
+
+end)
+
+Tab1:Button("Open Safe", function()
+
+game.ReplicatedStorage.RemoteEvents.Safe:FireServer(game:GetService("Workspace").CodeNote.SurfaceGui.TextLabel.Text)
+
+end)
+
+-- Line:
+
+Tab1:Line()
+
+-- Tab Creating
+
+local Tab2 = Main:Tab("Role")
+
+-- Label:
+
+Tab2:Label("Role Change")
+
+-- Line:
+
+Tab2:Line()
+
+-- Button 
+
+Tab2:Button("Police", function() 
+
+local A_1 = "Gun"
+
+local A_2 = true
+
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
+
+Event:FireServer(A_1, A_2)
+
+end)
+
+Tab2:Button("Hammer", function()
+
+local A_1 = true
+
+local A_2 = "Hammer"
+
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.BasementWeapon
+
+Event:FireServer(A_1, A_2)
+
+end)
+
+Tab2:Button("Police", function()
+
+local A_1 = "SwatGun"
+
+local A_2 = true
+
+local Event = game:GetService("ReplicatedStorage").RemoteEvents.OutsideRole
+
+Event:FireServer(A_1, A_2)
+
+end)
+
+-- Tab Creating
+
+local Tab3 = Main:Tab("Players")
+
+-- Label:
+
+Tab3:Label("Players")
+
+-- Line:
+
+Tab3:Line()
+
+-- TextBox:
+
+Tab3:TextBox("Walkspeed", function(Text)
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = (Text)
+
+end)
+
+Tab3:TextBox("JumpBoost", function(Text)
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = (Text)
+
+end)
+
+-- Button 
+
+Tab3:Button("Reset Walk/Jump", function()
+
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+
+end)
+
+-- Tab Creating
+
+local Tab4 = Main:Tab("Teleport")
+
+-- Label:
+
+Tab4:Label("Teleport")
+
+-- Line:
+
+Tab4:Line()
+
+-- Button:
+
+Tab4:Button("Basement", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(71, -15, -163)
+
+end)
+
+Tab4:Button("House", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-36, 3, -200)
+
+end)
+
+Tab4:Button("Attic", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-16, 35, -220)
+
+end)
+
+Tab4:Button("Store", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-422, 3, -121)
+
+end)
+
+Tab4:Button("Sewer", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(129, 3, -125)
+
+end)
+
+Tab4:Button("Boss Room", function()
+
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-39, -287, -1480)
+
+end)
+
+-- Tab Creating
+
+local Tab5 = Main:Tab("Give")
+
+-- Label:
+
+Tab5:Label("Give")
+
+-- Line:
+
+Tab5:Line()
+
+-- Button:
+
+Tab5:Button("Medkit", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("MedKit")
+
+end)
+
+Tab5:Button("Chips", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Chips")
+
+end)
+
+Tab5:Button("BloxyCola", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("BloxyCola")
+
+end)
+
+Tab5:Button("Bat", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Bat")
+
+end)
+
+Tab5:Button("Apple", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Apple")
+
+end)
+
+Tab5:Button("Pizza", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Pizza2")
+
+end)
+
+Tab5:Button("Cookie", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cookie")
+
+end)
+
+Tab5:Button("EpicPizza", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("EpicPizza")
+
+end)
+
+Tab5:Button("Key", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Key")
+
+end)
+
+Tab5:Button("LinkedSword", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("LinkedSword")
+
+end)
+
+Tab5:Button("Teddy", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("TeddyBloxpin")
+
+end)
+
+Tab5:Button("Cure", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Cure")
+
+end)
+
+Tab5:Button("Plank", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Plank")
+
+end)
+
+Tab5:Button("Lollipop", function()
+
+game.ReplicatedStorage.RemoteEvents.GiveTool:FireServer("Lollipop")
+
+end)
+
+-- Tab Creating
+
+local Tab6 = Main:Tab("Hub")
+
+-- Label:
+
+Tab6:Label("Hub List")
+
+-- Line:
+
+Tab6:Line()
+
+-- Button:
+
+Tab6:Button("Hub1", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/zFtGTKie", true))()
+
+end)
+
+Tab6:Button("Hub2", function()
+
+loadstring(game:HttpGet("https://pastebin.com/raw/gb9LAHS9",true))()
+
+end)
+
+Tab6:Button("Hub3", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RubyBoo4life/break-in-v1/main/.gitignore"))();
+
+end)
+
+-- Tab Creating
+
+local Tab7 = Main:Tab("Delete")
+
+-- Label:
+
+Tab7:Label("Delete")
+
+-- Line:
+
+Tab6:Line()
+
+-- Button
+
+Tab7:Button("Touch Me For Delete", function()
+
+game.CoreGui.ProjectCatUI:Destroy()
+
+end)
+
+-- Tab Creating
+
+local Tab8 = Main:Tab("Credit")
+
+-- Label:
+
+Tab8:Label("Credits")
+
+-- Line:
+
+Tab8:Line()
+
+-- Button:
+
+Tab8:Label("Credit: Reina RBX")
+
+Tab8:Label("Youtube: Reina RBX")
+
+Tab8:Label("Discord: Lordbedwars1992#5716")	
+
+Tab8:Button("Copy Discord Invite", function()
+
+setclipboard('https://discord.gg/AQHNpBMeq4')
+
+end)
