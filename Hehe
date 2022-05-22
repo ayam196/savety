@@ -1,0 +1,52 @@
+-- Toogle Kill Aura Reskyz For Kavo UI Library
+    if state then
+local kauravalv2 = v
+        repeat task.wait() until (matchState == 1)
+        if matchState == 1 then
+            spawn(function()
+                if kauravalv2 and entity.isAlive then
+                    conectionkillauraV2 = RunService.RenderStepped:Connect(function(step)
+                        if not kauravalv2 then 
+                            return
+                        end
+                        if entity.isAlive then
+                            if (not isclone) then
+                                local mouse = game.Players.LocalPlayer:GetMouse()
+                                for i,v in pairs(game.Players:GetChildren()) do
+                                    if v.Character and v.Name ~= game.Players.LocalPlayer.Name and v.Character:FindFirstChild("HumanoidRootPart") then
+                                        local mag = (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude
+                                        if mag <= 20 and v.Team ~= game.Players.LocalPlayer.Team and v.Character:FindFirstChild("Humanoid") and v.Character.Humanoid.Health > 0 then
+                                            if v.Character:FindFirstChild("Head") then
+                                                game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.out._NetManaged[landmineremote]:FireServer({
+                                                    ["invisibleLandmine"] = v.Character.Head                                        
+                                                })
+                                            end
+                                        end
+                                    end
+                                end 
+                            else
+                                local mouse = game.Players.LocalPlayer:GetMouse()
+                                for i,v in pairs(game.Players:GetChildren()) do
+                                    if v.Character and v.Name ~= game.Players.LocalPlayer.Name and v.Character:FindFirstChild("HumanoidRootPart") then
+                                        local mag = (v.Character.HumanoidRootPart.Position - clone.HumanoidRootPart.Position).Magnitude
+                                        if mag <= 20 and v.Team ~= game.Players.LocalPlayer.Team and v.Character:FindFirstChild("Humanoid") and v.Character.Health > 0 then
+                                            if v.Character:FindFirstChild("Head") then
+                                                game:GetService("ReplicatedStorage").rbxts_include.node_modules.net.out._NetManaged[landmineremote]:FireServer({
+                                                    ["invisibleLandmine"] = v.Character.Head                                        
+                                                })
+                                            end
+                                        end
+                                    end
+                                end 
+                            end
+                        end
+                    end)
+                else
+                    conectionkillauraV2:Disconnect()
+                    return
+                end
+            end)
+        end
+    end
+  
+end)
